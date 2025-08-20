@@ -3,7 +3,7 @@ public class RoomAssigner
 {
     public static void main(String[] args)
     {
-	    Scanner scanner = new Scanner(file name);
+	    Scanner scanner = new Scanner(System.input);
     	int numStudents = scanner.nextInt();
     	int numRegRooms = scanner.nextInt();
     	int numAccRooms = scanner.nextInt();
@@ -13,8 +13,8 @@ public class RoomAssigner
     	for(int i = 0; i < numStudents; i++)
     	{
     		String name = input.nextLine();
-    		name = name.substring(lastIndexOf(“ “)+1) + “, ” + name.substring(0, lastIndexOf(“ “));
-    		if(name.contains(“-”)
+    		name = name.substring(lastIndexOf(" ")+1) + ", " + name.substring(0, lastIndexOf(", "));
+    		if(name.contains("-tier");
 	    		accStudents.add(name);
 		    else
 			    regStudents.add(name);
@@ -22,12 +22,18 @@ public class RoomAssigner
 	    Collections.sort(regStudents);
         //first lets organize the regular students
         int numPerRoom = (int) regStudents.size() / numRegRooms;
+		int numLeftOver = numRegRooms % numPerRoom;
         for(int i = 1; i <= numRegRooms; i++)
         {
             System.out.println("Room " + i);
             for(int j = 0; j < numPerRoom; j++)
             {
                 System.out.println(regStudents.remove(i));
+				if(j == numPerRoom-1 && numLeftOver > 0)
+				{
+					numLeftOver--;
+					System.out.println(regStudents.remove(i));
+				}
             }
             if(i == numRegRooms)
                 while(!regStudents.isEmpty())

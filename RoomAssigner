@@ -30,8 +30,14 @@ public class RoomAssigner
 	    Collections.sort(regStudents);
 	    
         //first lets organize the regular students
-        int numPerRoom = (int) regStudents.size() / numRegRooms;
-		int numLeftOver = numRegRooms % numPerRoom;
+	    int numPerRoom = 0;
+	    int numLeftOver = 0;
+	    if(numRegRooms != 0)
+	    {
+	    	numPerRoom = (int) regStudents.size() / numRegRooms;
+	    	//numLeftOver = numRegRooms % numPerRoom;
+	    	numLeftOver = regStudents.size() % numRegRooms;
+	    }
         for(int i = 1; i <= numRegRooms; i++)
         {
             System.out.println("Room " + i);
@@ -71,15 +77,20 @@ public class RoomAssigner
         int NumRoomPerTier = 0;
         if(numTiers != 0)
         	NumRoomPerTier = numAccRooms / numTiers;
+        if(NumRoomPerTier == 0)
+        	return;
         
         Collections.sort(tier1);
         Collections.sort(tier2);
         Collections.sort(tier3);
         
         //tier1 room assignments
+        int numRoomPerTier1 = NumRoomPerTier;
+        if(tier1.size()==0)
+        	numRoomPerTier1 = 0;
         int numPerAccRoom1 = tier1.size() / NumRoomPerTier;
         int numLeftOver1 = tier1.size() % NumRoomPerTier;
-        for(int i = 1; i <= NumRoomPerTier; i++)
+        for(int i = 1; i <= numRoomPerTier1; i++)
         {
             System.out.println("Tier1 Room " + i);
             for(int j = 0; j < numPerAccRoom1; j++)
@@ -87,7 +98,6 @@ public class RoomAssigner
                 System.out.println(tier1.remove(0));
 				if(j == numPerAccRoom1-1 && numLeftOver1 > 0)
 				{
-					
 					numLeftOver1--;
 					System.out.println(tier1.remove(0));
 				}
@@ -97,9 +107,12 @@ public class RoomAssigner
         
         
         //tier2 room assignments
+        int numRoomPerTier2 = NumRoomPerTier;
+        if(tier2.size()==0)
+        	numRoomPerTier2 = 0;
         int numPerAccRoom2 = tier2.size() / NumRoomPerTier;
         int numLeftOver2 = tier2.size() % NumRoomPerTier;
-        for(int i = 1; i <= NumRoomPerTier; i++)
+        for(int i = 1; i <= numRoomPerTier2; i++)
         {
             System.out.println("Tier2 Room " + i);
             for(int j = 0; j < numPerAccRoom2; j++)
@@ -107,7 +120,6 @@ public class RoomAssigner
                 System.out.println(tier2.remove(0));
 				if(j == numPerAccRoom2-1 && numLeftOver2 > 0)
 				{
-					
 					numLeftOver2--;
 					System.out.println(tier2.remove(0));
 				}
@@ -116,9 +128,12 @@ public class RoomAssigner
         }
         
         //tier3 room assignments
+        int numRoomPerTier3 = NumRoomPerTier;
+        if(tier3.size()==0)
+        	numRoomPerTier3 = 0;
         int numPerAccRoom3 = tier3.size() / NumRoomPerTier;
         int numLeftOver3 = tier3.size() % NumRoomPerTier;
-        for(int i = 1; i <= NumRoomPerTier; i++)
+        for(int i = 1; i <= numRoomPerTier3; i++)
         {
             System.out.println("Tier3 Room " + i);
             for(int j = 0; j < numPerAccRoom3; j++)

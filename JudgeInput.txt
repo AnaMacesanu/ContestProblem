@@ -72,6 +72,9 @@ Greta Perez-Haiek
 Alexandra the Greatest
 
 Test 4: // acc peeps
+24
+6
+0
 Stefan cel Mare
 Mircha cel Batran
 Mihai Viteazul
@@ -98,6 +101,9 @@ Traian Vuia
 Ecaterina Teodoroiu
 
 Test 5: //only acc peeps
+14
+0
+4
 Alison Wang-tier1
 Maria Mihaela Macesanu-tier2
 Luca Ioan Macesanu-tier2

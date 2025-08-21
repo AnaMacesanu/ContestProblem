@@ -69,4 +69,46 @@ Alison Wang
 Maria Mihaela Macesanu
 Luca Ioan Macesanu
 Greta Perez-Haiek
-Alexandra The Greatest
+Alexandra the Greatest
+
+Test 4: // acc peeps
+Stefan cel Mare
+Mircha cel Batran
+Mihai Viteazul
+Vlad Tepes
+Alexandru Ioan Cuza
+Constantin Brancoveanu
+Radu Voda
+Dimitrie Cantemir
+Mihai Eminescu
+Constantin Brancus
+Regina Maria
+Maica Alexandra
+Teofil Brasoveanu
+Sofian Boghiu
+Adrian Fagetanu
+Ion Creanga
+Ion Luca Caragiale
+Alexandru Macedonski
+Ion Bratianu
+George Enescu
+Ciprian Porumbescu
+Aurel Vlaicu
+Traian Vuia
+Ecaterina Teodoroiu
+
+Test 5: //only acc peeps
+Alison Wang-tier1
+Maria Mihaela Macesanu-tier2
+Luca Ioan Macesanu-tier2
+Greta Perez-Haiek-tier1
+Alexandra the Greatest-tier3
+Sofia Gutu-tier1
+Ana Gutu-tier1
+Ana Gabriela Macesanu-tier2
+Oana Nicuta Leescu-tier3
+Cosmin Macesanu-tier3
+Angela Leescu-tier3
+Isla Roberts-tier1
+Ecaterina Luca-tier2
+Olivia Musat-tier1

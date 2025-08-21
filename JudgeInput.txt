@@ -1,0 +1,72 @@
+Test 1:
+26
+4
+6
+Anakin Skywalker
+Obi-Wan Kenobi
+Ginny Weasley-tier1
+Padme Amidala
+Han Solo-tier1
+Rachel Elizabeth Dare
+Leia Organa-tier3
+Luke Skywalker
+Hermione Jean Granger
+Percy Jackson-tier2
+Ron Weasley
+Qui-Gon Jinn-tier2
+Reyna Avila Ramirez-Arellano
+Katniss Everdeen-tier1
+Peeta Mellark-tier1
+Harry James Potter-tier2
+Remus John Lupin-tier3
+Annabeth Chase
+Will Andrew Solace
+Sadie Kane
+Sheev Palpatine-tier2
+Asajj Ventress-tier1
+Magnus Chase
+Naira Sharp
+Frodo Baggins-tier2
+Tom Marvolo Riddle-tier2
+
+Test 2: //should only be 3 acc rooms
+12
+3
+4
+Katniss Everdeen
+Peeta Mellark-tier1
+Harry James Potter-tier2
+Remus John Lupin-tier3
+Annabeth Chase
+Rachel Elizabeth Dare
+Leia Organa-tier3
+Luke Skywalker
+Hermione Jean Granger
+Percy Jackson-tier2
+Ron Weasley
+Padme Amidala
+
+Test 3: //no tier2
+20
+4
+2
+Magnus Chase
+Naira Sharp
+Frodo Baggins-tier2
+Tom Marvolo Riddle-tier2
+Qui-Gon Jinn-tier2
+Reyna Avila Ramirez-Arellano
+Katniss Everdeen-tier1
+Peeta Mellark-tier1
+Harry James Potter-tier2
+Rachel Elizabeth Dare
+Leia Organa
+Luke Skywalker
+Hermione Jean Granger
+Percy Jackson-tier2
+Ron Weasley
+Alison Wang
+Maria Mihaela Macesanu
+Luca Ioan Macesanu
+Greta Perez-Haiek
+Alexandra The Greatest
